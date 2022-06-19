@@ -102,14 +102,35 @@ p {
   position: relative;
   width: 100%;
 }
-
+.row1 {
+  position: relative;
+  width: 100%;
+  display: grid;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem; 
+}
+.row2 {
+  position: relative;
+  width: 100%;
+  display: grid;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem; 
+}
+.row3 {
+  position: relative;
+  width: 100%;
+  display: grid;
+  flex-direction: row;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem; 
+  justify-content: space-between
+}
 
 .row [class^="col"] {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
 }
-
 
 
 
@@ -154,6 +175,7 @@ p {
 
 .col-7-sm {
   width: 54.33%;
+  justify-content: end;
 }
 
 .col-8-sm {
@@ -176,7 +198,8 @@ p {
   width: 96%;
 }
 
-.row::after {
+
+.row2::after {
 	content: "";
 	display: table;
 	clear: both;
@@ -190,6 +213,7 @@ p {
   .container {
     width: 80%;
   }
+ 
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
@@ -244,11 +268,32 @@ p {
   .hidden-sm {
     display: block;
   }
+  .row1 {
+  
+  }
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
     max-width: 60rem;
+  
+  }
+  
+}
+@media (min-width: 768px) {
+  .row1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem; 
+  }
+  .row3 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem; 
   }
 }

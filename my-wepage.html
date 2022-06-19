@@ -8,139 +8,118 @@
 </head>
 <style>
 
-body {
+.Header {
+    display: grid;
+    justify-content: space-around;
     background-image: url(./images/background.png);
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
     width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    color:rgb(24, 22, 3)
 }
-h1 {
-    font-style: italic;
-    text-decoration: double;
-    text-decoration-color: darkorange;
-    text-emphasis-color: gold;
-    color:rgb(216, 255, 108);
-    font-size: xx-large;
-    border: 4px solid;
-    border-radius: 15px;
-    border-color: rgb(191, 214, 61);
-    background-color: rgb(177, 122, 39);
-    padding: 0em
+h3, h4 {
+    color: gold;
 }
-h2 {
-    color: rgb(233, 223, 79);
+.City-Explain {
+    width: 60%;
+    padding-left: ;
+  }
+
+.Languages{
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+}
+.me {
+    padding-left: 5px;
+    color: white;
+  }
+
+.City{
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+}
+.WD{
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .Header {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/background.png);
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+    color:rgb(95, 82, 10)
+  }
+  .Face_Image {
+    padding-left: 20px;  
+  }
+  .City {
+    display: flex;
+    align-items: flex-start;
+    position: right;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+    color:rgb(24, 22, 3)
+  }
+  .City-Explain {
+    width: 40%;
+    padding-left: 50px;
+  }
+
+  .subjects {
+    display: flex;
+    align-items: flex-start;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+    width: 100%;
+  }
+  .WD{
+    display: flex;
+    align-items: flex-start;
+    width: 55%;
+  }
+  .BC{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 1em;
+  }
+  .EB{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 1em;
+  }
+  .me {
+    padding-left: 5px;
+    color: white;
+  }
+
+  
 }
 
-img{
-    width: 150px;
-    padding: 3px;
-    border-radius: 5em;
-    border: 3px solid;
-    border-color: khaki;
-   }
- .About_me {
-    border: 5em;
-    text-size-adjust: 300px;
-    border: 3px solid;
-    border-color: khaki;
-    background-position: center; 
-    border-radius: 3em;  
-    padding-left: 30px;
-    padding-right: 30pt;
-    padding: 34m;
-    font-size: larger;
-    color: rgb(253, 218, 61);
-    background-color: rgb(23, 82, 90);
-}
-.FutherInfo {
-    text-decoration-color: darkorange;
-    text-emphasis-color: gold;
-    color:rgb(216, 255, 108);
-}
-.img2 {
-   background-color: darkolivegreen;
-    border-radius: 3em;  
-    border-right: 15em;
-    padding-left: 30px;
-    padding-right: 35pt;
-    border: 3px solid;
-   border-color: rgb(49, 233, 49);
-}
-table, th, td {
+
+th, td {
             border: 1px solid;
             table-layout: fixed;
+            border-color: black;
         }
 
-        .Contact-Details {
-    display: flex;
-    flex: 1 
-        }
+        
 
-        .Contact-Details1{
-    display: grid;
-    padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
-    margin: 1em;
-    background-color: rgb(132, 187, 70);
-}
-.Contact-Details2{
-    display: grid;
-    padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
-    margin: 1em;
-    background-color: rgb(132, 187, 70);
-   
-}   
-@media (min-width: 768px) {
-    .Main_Heading_Section {
-    display: flex;
-    margin: 1em;
-    flex: 1;
-    justify-content: center;
-}
-.FutherInfo {
-    display: flex;
-    padding: 1em;
-    margin: 1em;
-}
-
- .Contact-Details {
-    display: flex;
-    padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
-    margin: 1em;
-    background-color: rgb(132, 187, 70);
-    margin-right: 13em;
-}
-.Contact-Details1{
-    display: grid;
-    padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
-    margin: 1em;
-    background-color: rgb(132, 187, 70);
-}
-.Contact-Details2{
-    display: grid;
-    padding: 1em;
-    border: 2px solid;
-    border-color: rgb(132, 187, 70);
-    margin: 1em;
-    background-color: rgb(132, 187, 70);
-}   
-}
 </style>
 
 <body>
     
-    <div class="Main_Container">
+    <div class="Container">
 
-        <div class="Main_Heading_Section">
+        <div class="Header">
 
             <div class="Heading">
                 <H1 > First Names: Simphiwe Gift <br> Last Name: Nkuna <br> Title: MR </H1>
@@ -149,62 +128,94 @@ table, th, td {
             <div class="Face_Image">
                 <img src="./images/face_Image.jpg" alt="">
             </div>
+            
+        </div>
+
+            <div class="City">
+                <div class="City_Image">
+                    <h3>The City Of Jersalem</h3>
+                    <img src="./images/City of Jer.jpg" alt="">
+                </div>
+    
+                <div class="City-Explain">
+                    <h3>Why should i visit ?</h3>
+                    I am a firm christian believer, and thus, for believers, a visit to Jerusalem is a pilgrimage to one of the most sacred sites in the world. The number of religious tourist attractions here can be baffling for first-time visitors, but luckily most of the top sightseeing landmarks and things to do are secreted within the lanes of the compact Old City district. This ancient landmark is the holiest place in Judaism. References to the area date back to Abraham's near-sacrifice of his son Isaac in Jewish scripture. The site is also the location of the first and second Temples and the spot where many Jewish prophets taught.            
+                </div>
+            </div> 
            
-            
-            
-        </div>
-
-        <div class="My Info">
-
-      
-        
-       
-
-
-    <div class="FutherInfo">
-        
-            <div class="About_me">
-                <h2>About me</h2>
-                <div class="words">
-                Young vigorous, hardworking, and self-motivated candidate with a 
-                Bachelor of Technology in Electrical Engineering, currently pursuing Maters 
-                in Engineering (MEng), Electrical. Flexible under pressure or deadlines, 
-                reliable (high discipline and timekeeping), and a strong team player.With 
-                a demonstrated history of working in the higher education industry (TUT) as 
-                a lecture/lab assistant (2 years). Adequate ability of research and report 
-                writing this is based on an 11-month experience as a student researcher in 
-                a research and development department.
+            <div class="Languages">
+            <div class="words">
+                <h3>Foreign Language</h3>
+                French is the langage i want to learn.<br>French is the international language of cooking, fashion, theatre, the visual arts, dance and architecture. <br>A knowledge of French offers access to great works of literature in the original French, as well as films and songs</h6>
+            </div>
+            <div>
+                <h5></h5>
+                <table border="3px" style="width: 70%;">
+                    <tr>
+                        <th>English</th>
+                        <th>Foreign Language</th>
+                    </tr>
+                    <tr>
+                        <td>Peace be with you</td>
+                        <td>Que la paix soit avec toi</td>
+                    </tr>
+                    <tr>
+                        <td>Hello good people </td>
+                        <td>Bonjour bonnes gens</td>
+                    </tr>
+                    <tr>
+                        <td>Thank You</td>
+                        <td>Merci beaucoup</td>
+                    </tr>
+                </table>  
+            </div>
+            </div>
+            <div class="subjects">
+                
+                <div class="WD">
+                        <div class="Wf">
+                            <h4>Web Development</h3> 
+                            Web development has a number of pros: High earning potential, chances for growth, and flexibility are usually top of mind to get into the industry.       
+    
+                        </div>
+                            <div class="me">
+                                <h5>feagnkjju</h4>
+                            <img src="./images/Hnet.com-image (11).jpg" alt="">
+                        </div>
+    
+                        </div> 
+                        
+                <div class="BC">
+    
+                <div class="col-8">
+                    <h4>4IR Bootchamp</h4>  
+                    The 4IR Bootcamp initiative is tailored to align career choices and studies of individuals to growing industries, relatively new and undersub industries. 
+                </div>    
+                <div class="me">
+                    <h5>feagnkjju</h4>
+                        <img src="./images/5465.jpg" alt="">  
+                </div>
+                </div>
+    
+                <div class="EB">
+                <div class="col-8">
+                    <h4>Engineering businesses</h4>
+                    To may allow competitive edge, become a business analyst after engineering by opting for a business analytics certificate course and starting a business.
+                </div>
+                <div class="me">
+                    <h5>feagnkjju</h4>
+                        <img src="./images/busines.jpg" alt="">  
+                </div>
+    
+               </div>
+                
             </div> 
-            </div>  
-        <div class="City">
-            <h3>My City </h3>
-            <div class="img2">
-                It is situated in the Eastern part of South Africa and is the capital Province. The city serves as a gateway to some of the best eco- and adventure activities in Southern Africa and with its moderate climate, it becomes the preferred tourist destination all year round. Our sub-tropical fruits (like mangos, avocados, oranges, lemons, litchis and bananas) is a huge drawing card for visitors and during spring-time the blossoms of orange trees can be smelt for kilometres. For shopping enthusiasts the city offers world class shopping malls, casinos and entertainment venues with air conditioning systems. This creates excellent opportunities for prospective investors and businesses to establish themselves in the area.
-        </div>
-        </div>
-
-        <div class="Table">
-            <h3>The Picture of My City</h3>
-            <img src="./images/City.jpg" alt="">
-            
+    
 
         </div>
 
-    </div>
 
-    <div class="Contact-Details">
-
-        <div class="Contact-Details2">
-        <h4>Contact us at: (072)-541-1045 </h4> 
-        <h4>/linkedin</h4> 
-        <h4>/Twitter </h4>  
-        </div> 
-        <div class="Contact-Details1">
-            <h4>115 Luster House</h4> 
-            <h4>114 Goud St</h4> 
-            <h4>Johanesburg</h4>  
-            </div> 
-        </div>  
+     
 
 </body>
 </html>
